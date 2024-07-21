@@ -28,4 +28,28 @@ const someFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof heroes);
+// console.log(typeof heroes);
+
+// +++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(primitive) and Heap memory(Non-primitive)
+
+let myName = "Suyog";
+
+let anotherName = "Ghate";
+anotherName = "chaiaurcode";
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email : "user@gmail.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "suyog@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
