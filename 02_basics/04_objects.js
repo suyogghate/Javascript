@@ -47,12 +47,30 @@ const users = [
     },
 ];
 
-console.log(users[2].email);
-console.log(tinderUser);
+// console.log(users[2].email);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));  // [ [ 'id', '123abc' ], [ 'name', 'Suyog' ], [ 'isLoggedIn', false ] ]
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));  // [ [ 'id', '123abc' ], [ 'name', 'Suyog' ], [ 'isLoggedIn', false ] ]
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+// --------------------------------------
+
+const course = {
+    courseName : "Javascript in Hindi",
+    price : "999",
+    courseInstructor : "Hitesh"
+}
+
+const {courseInstructor : instructor} = course
+// console.log(courseInstructor);
+// console.log(instructor);
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "suyog")
 
