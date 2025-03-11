@@ -1,0 +1,26 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    align-items: center;
+}
+
+#countLabel {
+    font-size: 50px;
+    font-family: Helvetica;
+}
+
+#increaseBtn, #decreaseBtn, #resetBtn{
+    background-color: rgb(47, 47, 240);
+    padding: 5px;
+    width: 70px;
+    color: aliceblue;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#increaseBtn:hover, #decreaseBtn:hover, #resetBtn:hover {
+    background-color: rgb(139, 139, 251);
+}
