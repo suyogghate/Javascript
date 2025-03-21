@@ -9,3 +9,9 @@ This is chatbot app made using HTML, CSS, Javascript in which we can ask any que
 I have used Google Gemini's API here for the responses. There are still some improvements in the project like the responses are coming in markdown file,
 where the text contains '*' and '**' included in it. We can format it in a manner so that it looks exactly like we are using some AI tools.
 Live link: https://bing-bong.netlify.app/
+
+# Weather App
+This is a weather app made using HTML, CSS, JavaScript. In this app we can enter the city of our choice and get the temperature, humidity and description of the city.
+It is made with the help of openweather api where i have fetched necessary details from the response and showed it using html and css. The improvements in this project includes
+involving more details about the weather and also we can make the background also change according to the weather.
+Live project: https://garmi-thandi.netlify.app/
